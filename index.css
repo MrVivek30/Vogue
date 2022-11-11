@@ -48,12 +48,20 @@ input {
     border: none;
 }
 
-#top>button {
+#vbutton{
     margin-right: 19.5px;
     padding: 6px;
-    background-color: black;
+    background-color:black;
     color: white;
     border-radius: 8px;
+    border: none;
+}
+#a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:sans-serif
 }
 
 
@@ -256,4 +264,11 @@ padding: 50px 0px;
 }
 #f3>p:hover{
     text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    
 }
