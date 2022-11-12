@@ -10,9 +10,11 @@
   }
   #product-container>div>button{
     background-color: rgb(23, 226, 226);
-    color: white;
-    border-radius: 6px;
-    border: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    
   }
   #product-container >div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -27,11 +29,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* height: auto; */
-    width: 97%;
+    width: 90%;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 0px 20px;
-    margin: 20px;
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: 20px;
   }
   #filter{
     text-align: center;
@@ -39,4 +42,33 @@
   a{
     text-decoration: none;
     color: blue
+  }
+  #qwerty{
+ margin: auto;
+ display: flex;
+justify-content: center;
+padding: 10px;
+margin: 20px;
+
+  }
+
+  select{
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(185, 135, 231);
+    border-radius: 12px;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .rrr:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    color: teal;
+    /* font-size: 20px; */
   }

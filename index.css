@@ -95,32 +95,57 @@ input {
     margin-top: 40px;
 }
 
-#mid>div>img {
+#mid>div> img {
     width: 100%;
 }
 
-#mid-below {
+/* #mid-below {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     gap: 2px 0px;
     margin-top: 100px;
+} */
+.owl-carousel{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 2px 0px;
+    margin-top: 50px;
+   
+   
 }
 
 #mid>div {
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-}
+   
+    
 
+}
+#mid>div:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+/* 
 #mid-below>div>img {
     width: 100%;
-}
-
+} */
+/* 
 #mid-below>div {
     text-align: center;
-    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    
     border: 1px solid black;
+} */
+.item img{
+    width: 100%;
 }
-
+.item{
+    text-align: center;
+    
+    border: 1px solid black;
+    height: 50vh;
+    /* margin: auto; */
+}
 .bold {
     font-weight: bolder;
     font-size: 50px;
