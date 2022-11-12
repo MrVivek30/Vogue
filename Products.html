@@ -8,20 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="nav">
       <h1 class="rrr">VOGUE.COM</h1>
-      <a href="./index.html">Home</a>
-      <a href="./cart.html">Cart</a>
+      <a href="./index.html"><i style="font-size:50px;" class="fa-solid fa-house"></i>
+      </a>
+      <a href="./cart.html"><i style="font-size:50px;" class="fa-sharp fa-solid fa-cart-shopping"></i>
+      </a>
     </div>
     <!--****************** Use this Select Tag for Filtering the Products ***************************** -->
+    <div id="qwerty">
+    
     <select onchange="filteritem()" id="filter">
       <option value="">Filter By Category</option>
       <option value="Men">Men</option>
       <option value="Women">Women</option>
+      <option value="Kid">Kid</option>
      
     </select>
+  </div>
     <div id="product-container">
       <!-- *******************Here Append All the Products ******************************* -->
     </div>

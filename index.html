@@ -6,7 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="index.css">
+
+
 </head>
 
 <body>
@@ -39,7 +52,7 @@
 
             </div>
 
-            <input type="text" placeholder="search here">
+            <input oninput="search()" type="text" placeholder="search here">
         </nav>
 
     </header>
@@ -65,78 +78,88 @@
 
     </div>
 </a> 
-    <!--******************************* midddddddd ***************************************-->
+    <!-- ******************************* midddddddd *************************************** mid -->
+    <!-- 1st row********************************************** -->
     <a href="Products.html"> <div id="mid">
-        <div>
+        <div >
             <img src="https://cdna.lystit.com/cms/5_C90_EA_3_D_C641_4_C59_AEE_7_729_E7036_BCF_1_ea93f2a099.PNG" alt="">
             <h1>What to Wishlist Now</h1>
         </div>
 
-        <div>
+        <div  > 
             <img src="https://cdna.lystit.com/480/480/r/cms/f78e6396_e4f3_4c06_b8da_e9a03e5cd2e6_8a37c6d66c.png" alt="">
             <h1>Ahead of the Trend</h1>
         </div>
-        <div>
+        <div  >
             <img src="https://cdna.lystit.com/cms/791d5cce_14ec_4b7a_b6df_6cb35f1abf9c_0e299e3b12.png" alt="">
             <h1>Just Landed:LOEWE</h1>
         </div>
-        <div>
+        <div >
             <img src="https://cdna.lystit.com/cms/Q4_Nov_Lyst_Homepage_Top_Lyst_Banner_600x600_US_8d5732b497.jpg"
                 alt="">
             <h1>Strategic Buys</h1>
         </div>
-        <div> <img src="https://cdna.lystit.com/cms/ssense_600_x_600_woman_a1d11da9ce.jpg" alt="">
+
+
+<!-- 2nd row****************************************************** -->
+  
+    <div > 
+    <img src="https://cdna.lystit.com/cms/ssense_600_x_600_woman_a1d11da9ce.jpg" alt="">
             <h1>SSENSE STORE</h1>
         </div>
-        <div>
+        <div  >
             <img src="https://cdna.lystit.com/cms/600x600_Boden_7_Nov_6e206863ac.jpg" alt="">
             <h1>MADISON STORE</h1>
         </div>
-        <div>
+        <div >
             <img src="https://cdna.lystit.com/cms/madison_beverly_hills_lyst_63f59bd7db.jpg" alt="">
             <h1>GALVAN LONDON DRESSES FOR WOMEN</h1>
         </div>
-        <div>
+        <div  >
             <img src="https://cdna.lystit.com/cms/b64f1667_734e_4565_ada8_f8fd0a6fefc9_0fac2b73d5.png" alt="">
             <h1>THE HOTTEST PRODUCTS</h1>
         </div>
     </div>
 </a>
-    <!--  *****************mid below********************************-->
+     <!-- *****************mid below********************************id="mid-below" -->
+     <!-- 1st row******************************** -->
 
-    <a href="Products.html">   <div id="mid-below">
-        <div>
+    <a href="Products.html">   <div  class="owl-carousel owl-theme" >
+        <div class="item">
             <h1 class="bold">
                 BREAKOUT <br>
                 BRANDS
             </h1>
         </div>
 
-        <div>
+        <div class="item">
             <h1> OFF-WHITE VIRGIL ABLOH</h1>
             <img src="https://cdna.lystit.com/cms/designer_rail_off_white_co_virgil_abloh_d8c6b37a9f.jpeg" alt="">
 
         </div>
-        <div>
+        <div class="item">
             <h1>GUCCI</h1>
             <img src="https://cdna.lystit.com/cms/designer_rail_gucci_eca9e74796.jpg" alt="">
 
         </div>
 
-        <div>
+        <div class="item">
             <h1>PATOU</h1>
             <img src="https://cdna.lystit.com/cms/My_Post_81_76121ffa01.jpg" alt="">
 
         </div>
 
-        <div>
+        <div class="item">
             <h1>SAINT LAURENT</h1>
             <img src="https://cdna.lystit.com/cms/designer_rail_dolce_gabbana_bcb7049bb0.jpeg" alt="">
 
         </div>
+        </div>
+<!-- 2nd row*********************************************************** -->
 
+<div  class="owl-carousel owl-theme" >
 
-        <div>
+        <div class="item">
             <h1>
 
                 ROBERTA RABBIT NIGHTWEAR</h1>
@@ -145,38 +168,43 @@
         </div>
 
 
-        <div>
+        <div class="item">
             <h1>GALVAN LONDON DRESSES</h1>
             <img src="https://cdna.lystit.com/cms/galvan_dress_cb31d2b319.jpg" alt="">
 
         </div>
-        <div>
+        <div class="item">
             <h1 class="bold">
                 TRENDING <br>
                 NOW
             </h1>
         </div>
 
-        <div>
+        <div class="item">
             <h1>ETON SHIRTS FOR MEN</h1>
             <img src="https://cdna.lystit.com/cms/eton_sweden_shirt_da4fff6982.jpg" alt="">
 
         </div>
 
-        <div>
+        <div class="item">
             <h1> LANVIN T-SHIRTS</h1>
             <img src="https://cdna.lystit.com/cms/lanvin_shirt_8ae9c5a0a3.jpg" alt="">
 
         </div>
 
+    </div>
+    <!-- 3rd row******************************************** -->
+     
+    
+<div  class="owl-carousel owl-theme" >
 
-        <div>
+    <div class="item">
             <h1>BONOBOS SHORTS</h1>
             <img src="https://cdna.lystit.com/cms/bonobos_shorts_6a3e83ea91.jpg" alt="">
 
         </div>
 
-        <div>
+        <div class="item">
             <h1 class="bold">
                 HOT RIGHT <br>
                 NOW
@@ -185,7 +213,7 @@
 
 
 
-        <div>
+        <div class="item">
             <h1> BALENCIAGA BEACHWEAR </h1>
             <img src="https://cdna.lystit.com/cms/balenciaga_swimwear_a06622c701.jpg" alt="">
 
@@ -193,7 +221,7 @@
 
 
 
-        <div>
+        <div class="item">
             <h1> CHIMI SUNGLASSES
             </h1>
             <img src="https://cdna.lystit.com/cms/chimi_sunglasses_1629b146e4.jpg" alt="">
@@ -201,18 +229,19 @@
         </div>
 
 
-        <div>
+        <div class="item"> 
             <h1>JOHNNY WAS BEACHWEAR </h1>
             <img src="https://cdna.lystit.com/cms/johnny_was_beachwear_812a36ae2c.jpg" alt="">
 
         </div>
+    </div>
         <!-- 
         <div>
 
             <h1></h1>
             <img src="" alt="">
         </div> -->
-    </div>
+    
     </a>
 
 
@@ -351,7 +380,7 @@
 
     </div>
 </a> 
-<a href="Products.html">
+
 <div id="main-footer">
     <div id="footer">
 
@@ -412,7 +441,40 @@
         </div>
     </div>
 </div>
-</a>
+
+
+<!-- **********************sliding show*************************** -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+</script>
 </body>
 
 </html>

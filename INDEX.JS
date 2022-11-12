@@ -52,3 +52,11 @@ prev.addEventListener("click", function () {
 
 
 generate(images)
+
+
+// **************************search function*********************
+
+function search(){
+
+    
+}
