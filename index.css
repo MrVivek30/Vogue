@@ -31,7 +31,8 @@ input {
     height: 6px;
     width: 75%;
     margin-top: 25px;
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
     border: none;
 
 }
@@ -73,6 +74,7 @@ input {
     margin: auto;
     align-items: center;
     margin-top: 20px;
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
 }
 
 .main-carousel img {
@@ -93,6 +95,7 @@ input {
     grid-template-rows: auto;
     gap: 5px 0px;
     margin-top: 40px;
+     box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
 }
 
 #mid>div> img {
@@ -112,14 +115,14 @@ input {
     grid-template-rows: auto;
     gap: 2px 0px;
     margin-top: 50px;
-   
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
    
 }
 
 #mid>div {
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-   
-    
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
+    text-align: center;
 
 }
 #mid>div:hover{
@@ -141,7 +144,7 @@ input {
 }
 .item{
     text-align: center;
-    
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
     border: 1px solid black;
     height: 50vh;
     /* margin: auto; */

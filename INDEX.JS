@@ -60,3 +60,9 @@ function search(){
 
     
 }
+
+
+function v(){
+    console.log("ff")
+    window.location.reload()
+}
