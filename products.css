@@ -17,12 +17,12 @@
     
   }
   #product-container >div{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
     text-align: center;
     padding: 20px;
   }
   #product-container>div>button:hover{
-    background-color: red;
+    background-color: rgb(27, 218, 52);
   }
 
   .nav{
@@ -31,7 +31,8 @@
     /* height: auto; */
     width: 90%;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
+    
     padding: 20px 20px;
     margin: auto;
     margin-top: 20px;
@@ -41,7 +42,10 @@
   }
   a{
     text-decoration: none;
-    color: blue
+    color: rgb(60, 103, 212);
+  }
+  a:hover{
+    color: rgb(40, 230, 72);
   }
   #qwerty{
  margin: auto;
@@ -71,4 +75,13 @@ margin: 20px;
     z-index: 2;
     color: teal;
     /* font-size: 20px; */
+  }
+
+  #lem{
+    width: 60%;
+    /* margin: auto; */
+    padding: 15px 0px;
+    margin-left: 20%;
+    margin-top: 20px;
+    box-shadow: rgba(178, 10, 10, 0.35) 0px 5px 15px;
   }
